@@ -1,0 +1,107 @@
+@import "variables.scss";
+@import "structures.scss";
+@import "footer/footer.scss";
+
+.home {
+    
+    @import "home/hero.scss";
+    @import "home/nav.scss";
+}
+@import "home/promo-tours-home.scss";
+@import "form/bookimg-form.scss";
+
+
+.about {
+    @import "about/nav.scss";
+    @import "about/hero.scss";
+}
+@import "about/about.scss";
+
+
+.tours { 
+    .main_header {
+        width: 981px;
+        height: 200px;
+        margin: 0 auto;
+
+        background-image: $overlay,
+        url(../images/tour/tours-header.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+
+        font-family: Nova;
+        font-size: 25px;
+        color: $white;
+        padding-top: 60px;
+        text-align: center;
+    }
+    @import "tours/nav.scss";
+    @import "tours/hero.scss";
+}
+@import "tours/promo-tours-tours.scss";
+
+
+
+.specialoffers {
+    .header {
+        width: 981px;
+        height: 0px;
+        margin: 0 auto;
+
+
+        font-family: Nova;
+        font-size: 30px;
+        padding-top: 24px;
+    }
+    @import "specialoffers/nav.scss";
+    @import "specialoffers/hero.scss";
+    @import "specialoffers/line.scss";
+}
+@import "specialoffers/content.scss";
+@import "specialoffers/line.scss";
+
+
+.blog {
+    .header {
+        width: 981px;
+        height: 0px;
+        margin: 0 auto;
+
+
+        font-family: Nova;
+        font-size: 30px;
+        padding-top: 24px;
+    } 
+    @import "blog/nav.scss";
+    @import "blog/hero.scss";
+    @import "blog/line.scss";
+}
+@import "blog/content.scss";
+@import "blog/line.scss";
+
+
+.contact { 
+    .header {
+        width: 981px;
+        height: 0px;
+        margin: 0 auto;
+
+
+        font-family: Nova;
+        font-size: 30px;
+        padding-top: 24px;
+    }
+    @import "contact/nav.scss";
+    @import "contact/hero.scss";
+    @import "contact/line.scss";
+}
+@import "contact/content.scss";
+@import "contact/info.scss";
+@import "contact/line.scss";
+
+
+@import "pages/nav.scss";
+
+@import "pages/pages.scss";

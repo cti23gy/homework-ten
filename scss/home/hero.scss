@@ -1,0 +1,22 @@
+.header {
+    .hero {
+    
+        max-width: 1280px;
+        height: 500px;
+        margin: -120px auto 0 auto;
+        background-image: $overlay,
+        url(../images/hero.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+    
+        font-family: Nova;
+        font-size: 25px;
+        color: $white;
+        padding-top: 160px;
+        text-align: center;
+    
+    }
+
+}

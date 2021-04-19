@@ -1,0 +1,20 @@
+.hero {
+    .header {
+        width: 981px;
+        height: 200px;
+        margin: 0 auto;
+
+        background-image: $overlay,
+        url(../images/tour/tours-header.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+
+        font-family: Nova;
+        font-size: 25px;
+        color: $white;
+        padding-top: 60px;
+        text-align: center;
+    }
+}

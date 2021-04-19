@@ -1,0 +1,74 @@
+.booking-form {
+    font-family: Gill;
+    width: 1280px;
+    height: 890px;
+    padding-left: 200px;
+    padding-top: 50px;
+    margin: 0 auto;
+
+
+    .form1 {
+        width: 400px;
+        height: 50px;
+        display: flex;
+        justify-content: left;
+        padding-left: 20px;
+        align-items: center;
+        float: left;
+        margin: 10px 10px 10px 10px;
+        background-color: $white;
+        border: 1px solid $site-blue;
+    }
+
+    .form2 {
+        width: 700px;
+        height: 50px;
+        display: flex;
+        justify-content: left;
+        padding-left: 20px;
+        align-items: center;
+        margin: 10px 10px 10px 130px;
+        background-color: $white;
+        border: 1px solid $site-blue;
+    }
+
+    .form3 {
+        width: 100px;
+        height: 50px;
+        display: flex;
+        padding-left: 20px;
+        align-items: center;
+        float: left;
+        margin: 10px 10px 10px 130px;
+        background-color: $white;
+        border: 1px solid $site-blue;
+    }
+
+    .form4 {
+        width: 820px;
+        height: 200px;
+        display: flex;
+        justify-content: left;
+        padding-left: 20px;
+        padding-top: 20px;
+        float: left;
+        margin: 10px 10px 10px 10px;
+        background-color: $white;
+        border: 1px solid $site-blue;
+    }
+
+    .submit {
+        width: 820px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: center;
+        margin: 10px 10px 10px 10px;
+
+        color: $white;
+        background-color: $site-blue;
+        border-radius: 100px;
+    }
+
+}

@@ -1,0 +1,1441 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: Gill;
+  src: url(../fonts/fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: Nova;
+  src: url(../fonts/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.footer {
+  width: 1280px;
+  height: 100px;
+  display: flex;
+  margin: 10px auto;
+  background-color: #5d9bce;
+}
+.footer .logo {
+  width: 92px;
+  height: 42px;
+  margin: 20px;
+  background-image: url(../images/logo/logo-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.footer .copyright {
+  font-family: Gill;
+  font-size: 20px;
+  color: #fff;
+  margin: auto 40px auto auto;
+}
+.footer .media {
+  width: 140px;
+  height: 30px;
+  margin: auto;
+  background-image: url(../images/logo/media1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.home .header .hero {
+  max-width: 1280px;
+  height: 500px;
+  margin: -120px auto 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: Nova;
+  font-size: 25px;
+  color: #fff;
+  padding-top: 160px;
+  text-align: center;
+}
+.home nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.home nav .logo {
+  width: 92px;
+  height: 42px;
+  margin: auto 20px;
+  background-image: url(../images/logo/logo-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.home nav .links {
+  width: 524px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home nav .links div.pipe {
+  height: 60%;
+  width: 2px;
+  background-color: #5d9bce;
+}
+.home nav .links div a {
+  font-family: Gill;
+  font-size: 15px;
+  margin: auto;
+  text-decoration: none;
+  color: #fff;
+}
+
+.promo-tours-home {
+  max-width: 1280px;
+  min-height: 304px;
+  margin: -50px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.promo-tours-home .promo {
+  height: 304px;
+  width: 236px;
+  margin-bottom: 30px;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.promo-tours-home .promo .header {
+  font-family: Nova;
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+.promo-tours-home .promo .price {
+  font-family: Nova;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.promo-tours-home .promo .more {
+  font-family: Gill;
+  background-color: #5d9bce;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.promo-tours-home .israel {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+}
+.promo-tours-home .usa {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+}
+.promo-tours-home .austrailia {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+}
+.promo-tours-home .newzealand {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+}
+.promo-tours-home .france {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+}
+.promo-tours-home .egypt {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+}
+.promo-tours-home .japan {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+}
+.promo-tours-home .canada {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+}
+.promo-tours-home .uae {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+}
+
+@media only screen and (max-width: 1060px) {
+  .promo-tours-home {
+    width: 236px;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.booking-form {
+  font-family: Gill;
+  width: 1280px;
+  height: 890px;
+  padding-left: 200px;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+.booking-form .form1 {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: left;
+  padding-left: 20px;
+  align-items: center;
+  float: left;
+  margin: 10px 10px 10px 10px;
+  background-color: #fff;
+  border: 1px solid #5d9bce;
+}
+.booking-form .form2 {
+  width: 700px;
+  height: 50px;
+  display: flex;
+  justify-content: left;
+  padding-left: 20px;
+  align-items: center;
+  margin: 10px 10px 10px 130px;
+  background-color: #fff;
+  border: 1px solid #5d9bce;
+}
+.booking-form .form3 {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  float: left;
+  margin: 10px 10px 10px 130px;
+  background-color: #fff;
+  border: 1px solid #5d9bce;
+}
+.booking-form .form4 {
+  width: 820px;
+  height: 200px;
+  display: flex;
+  justify-content: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  float: left;
+  margin: 10px 10px 10px 10px;
+  background-color: #fff;
+  border: 1px solid #5d9bce;
+}
+.booking-form .submit {
+  width: 820px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: center;
+  margin: 10px 10px 10px 10px;
+  color: #fff;
+  background-color: #5d9bce;
+  border-radius: 100px;
+}
+
+.about nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.about nav .logo {
+  width: 92px;
+  height: 42px;
+  margin: auto 0;
+  background-image: url(../images/logo/logo-black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.about nav .links {
+  width: 524px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about nav .links div.pipe {
+  height: 60%;
+  width: 2px;
+  background-color: #5d9bce;
+}
+.about nav .links div a {
+  font-family: Gill;
+  font-size: 15px;
+  margin: auto;
+  text-decoration: none;
+  color: #000;
+}
+.about .hero {
+  max-width: 1280px;
+  height: 10px;
+  margin: 0 auto;
+}
+.about .line1 {
+  display: flex;
+  width: 980px;
+  height: 2px;
+  margin: 10px auto 10px 10px;
+  background-color: #000;
+}
+.about .line2 {
+  display: flex;
+  width: 171px;
+  height: 2px;
+  margin: 10px;
+  background-color: #000;
+}
+.about .line3 {
+  display: flex;
+  margin: 0 auto;
+  width: 255px;
+  height: 2px;
+  margin: 10px;
+  background-color: #000;
+}
+
+.about {
+  max-width: 980px;
+  margin: 0 auto 60px auto;
+  font-family: Gill;
+}
+.about .about-top-section h1 {
+  font-family: Nova;
+  font-size: 60px;
+}
+.about .about-bottom-section h3 {
+  font-family: Nova;
+  font-size: 40px;
+}
+.about .about-bottom-section .client {
+  max-width: 676px;
+  min-height: 150px;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about .about-bottom-section .client .client-image {
+  width: 260px;
+  height: 150px;
+}
+.about .about-bottom-section .client .client-image img {
+  width: 100%;
+}
+.about .about-bottom-section .client .client-quote {
+  font-size: 16px;
+  position: relative;
+  min-height: 50px;
+  width: 100%;
+  padding: 25px;
+}
+.about .about-bottom-section .client .client-quote p:last-child {
+  margin-bottom: 25px;
+}
+.about .about-bottom-section .client .client-quote .client-name1 {
+  color: #5d9bce;
+  font-family: Nova;
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+  bottom: 120px;
+}
+.about .about-bottom-section .client .client-quote .client-name2 {
+  color: #5d9bce;
+  font-family: Nova;
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.tours .main_header {
+  width: 981px;
+  height: 200px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tours-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: Nova;
+  font-size: 25px;
+  color: #fff;
+  padding-top: 60px;
+  text-align: center;
+}
+.tours nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.tours nav .logo {
+  width: 92px;
+  height: 42px;
+  margin: auto 20px;
+  background-image: url(../images/logo/logo-black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.tours nav .links {
+  width: 524px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tours nav .links div.pipe {
+  height: 60%;
+  width: 2px;
+  background-color: #5d9bce;
+}
+.tours nav .links div a {
+  font-family: Gill;
+  font-size: 15px;
+  margin: auto;
+  text-decoration: none;
+  color: #000;
+}
+.tours .hero .header {
+  width: 981px;
+  height: 200px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tours-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: Nova;
+  font-size: 25px;
+  color: #fff;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.promo-tours-tours {
+  max-width: 1280px;
+  min-height: 304px;
+  margin: 57px auto;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.promo-tours-tours .promo {
+  height: 304px;
+  width: 236px;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.promo-tours-tours .promo .header {
+  font-family: Nova;
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+.promo-tours-tours .promo .price {
+  font-family: Nova;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.promo-tours-tours .promo .more {
+  font-family: Gill;
+  background-color: #5d9bce;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.promo-tours-tours .israel {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/tour/tour-01.jpg);
+}
+.promo-tours-tours .usa {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/tour/tour-02.jpg);
+}
+.promo-tours-tours .austrailia {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/tour/tour-03.jpg);
+}
+.promo-tours-tours .newzealand {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/tour/tour-04.jpg);
+}
+.promo-tours-tours .france {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/tour/tour-05.jpg);
+}
+.promo-tours-tours .egypt {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/tour/tour-06.jpg);
+}
+.promo-tours-tours .japan {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/tour/tour-07.jpg);
+}
+.promo-tours-tours .canada {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/tour/tour-08.jpg);
+}
+.promo-tours-tours .uae {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/tour/tour-09.jpg);
+}
+
+@media only screen and (max-width: 1060px) {
+  .promo-tours-tours {
+    width: 236px;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.specialoffers .header {
+  width: 981px;
+  height: 0px;
+  margin: 0 auto;
+  font-family: Nova;
+  font-size: 30px;
+  padding-top: 24px;
+}
+.specialoffers nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.specialoffers nav .logo {
+  width: 92px;
+  height: 42px;
+  margin: auto 20px;
+  background-image: url(../images/logo/logo-black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.specialoffers nav .links {
+  width: 524px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.specialoffers nav .links div.pipe {
+  height: 60%;
+  width: 2px;
+  background-color: #5d9bce;
+}
+.specialoffers nav .links div a {
+  font-family: Gill;
+  font-size: 15px;
+  margin: auto;
+  text-decoration: none;
+  color: #000;
+}
+.specialoffers .hero .header {
+  width: 981px;
+  height: 160px;
+  margin: 0 auto;
+  font-family: Nova;
+  font-size: 30px;
+  padding-top: 100px;
+}
+.specialoffers .line1 {
+  background-color: #000;
+  width: 980px;
+  height: 2px;
+  margin: 10px auto;
+}
+.specialoffers .line2 {
+  margin: 80px auto 10px 270px;
+  background-color: #000;
+  width: 200px;
+  height: 2px;
+}
+.specialoffers .line3 {
+  margin: auto 30px;
+  background-color: #000;
+  width: 200px;
+  height: 2px;
+}
+
+.content {
+  height: 300px;
+  width: 980px;
+  display: flex;
+  margin: 100px auto;
+}
+.content .text {
+  max-width: 300px;
+}
+.content .text .more {
+  display: flex;
+  margin: 80px 30px;
+  width: 140px;
+  color: #fff;
+  font-family: Gill;
+  background-color: #5d9bce;
+  padding: 10px 20px;
+  justify-content: center;
+  border-radius: 20px;
+}
+.content h1 {
+  font-family: Nova;
+  font-size: 30px;
+  margin: auto 30px;
+}
+.content p {
+  width: 290;
+  font-family: Gill;
+  font-size: 16px;
+  margin: auto 30px;
+}
+.content .image1 {
+  height: 100%;
+  min-width: 200px;
+  background-image: url(../images/special-offer-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.content .image2 {
+  height: 100%;
+  min-width: 200px;
+  background-image: url(../images/special-offer-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.line1 {
+  background-color: #000;
+  width: 980px;
+  height: 2px;
+  margin: 10px auto;
+}
+
+.line2 {
+  margin: 80px auto 10px 270px;
+  background-color: #000;
+  width: 200px;
+  height: 2px;
+}
+
+.line3 {
+  margin: auto 30px;
+  background-color: #000;
+  width: 200px;
+  height: 2px;
+}
+
+.blog .header {
+  width: 981px;
+  height: 0px;
+  margin: 0 auto;
+  font-family: Nova;
+  font-size: 30px;
+  padding-top: 24px;
+}
+.blog nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.blog nav .logo {
+  width: 92px;
+  height: 42px;
+  margin: auto 20px;
+  background-image: url(../images/logo/logo-black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.blog nav .links {
+  width: 524px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog nav .links div.pipe {
+  height: 60%;
+  width: 2px;
+  background-color: #5d9bce;
+}
+.blog nav .links div a {
+  font-family: Gill;
+  font-size: 15px;
+  margin: auto;
+  text-decoration: none;
+  color: #000;
+}
+.blog .hero .header {
+  width: 981px;
+  height: 160px;
+  margin: 0 auto;
+  font-family: Nova;
+  font-size: 30px;
+  padding-top: 100px;
+}
+.blog .line1 {
+  background-color: #000;
+  width: 980px;
+  height: 2px;
+  margin: 10px auto;
+}
+.blog .line2 {
+  margin: 80px auto 10px 270px;
+  background-color: #000;
+  width: 200px;
+  height: 2px;
+}
+.blog .line3 {
+  margin: auto 30px;
+  background-color: #000;
+  width: 200px;
+  height: 2px;
+}
+
+.content {
+  height: 300px;
+  width: 980px;
+  display: flex;
+  margin: 100px auto;
+}
+.content .date {
+  margin: 0 auto;
+  height: 60px;
+  width: 60px;
+  background-color: #5d9bce;
+  color: #fff;
+  font-family: Gill;
+  font-size: 24px;
+  display: flex;
+}
+.content .content-info .text {
+  max-width: 300px;
+}
+.content .content-info h1 {
+  font-family: Gill;
+  font-size: 15px;
+  margin: auto 30px;
+}
+.content .content-info p {
+  width: 380px;
+  font-family: Gill;
+  font-size: 13px;
+  margin: auto 30px;
+}
+.content .content-info .image1 {
+  height: 260px;
+  width: 900px;
+  background-image: url(../images/blog.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.line1 {
+  background-color: #000;
+  width: 980px;
+  height: 2px;
+  margin: 10px auto;
+}
+
+.line2 {
+  margin: 80px auto 10px 270px;
+  background-color: #000;
+  width: 200px;
+  height: 2px;
+}
+
+.line3 {
+  margin: auto 30px;
+  background-color: #000;
+  width: 200px;
+  height: 2px;
+}
+
+.contact .header {
+  width: 981px;
+  height: 0px;
+  margin: 0 auto;
+  font-family: Nova;
+  font-size: 30px;
+  padding-top: 24px;
+}
+.contact nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contact nav .logo {
+  width: 92px;
+  height: 42px;
+  margin: auto 20px;
+  background-image: url(../images/logo/logo-black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.contact nav .links {
+  width: 524px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact nav .links div.pipe {
+  height: 60%;
+  width: 2px;
+  background-color: #5d9bce;
+}
+.contact nav .links div a {
+  font-family: Gill;
+  font-size: 15px;
+  margin: auto;
+  text-decoration: none;
+  color: #000;
+}
+.contact .hero .header {
+  width: 981px;
+  height: 160px;
+  margin: 0 auto;
+  font-family: Nova;
+  font-size: 30px;
+  padding-top: 100px;
+}
+.contact .line1 {
+  background-color: #000;
+  width: 980px;
+  height: 2px;
+  margin: 10px auto;
+}
+.contact .line2 {
+  margin: 80px auto 10px 270px;
+  background-color: #000;
+  width: 200px;
+  height: 2px;
+}
+.contact .line3 {
+  margin: auto 30px;
+  background-color: #000;
+  width: 200px;
+  height: 2px;
+}
+
+.content {
+  height: 400px;
+  width: 980px;
+  display: flex;
+  margin: 60px auto;
+}
+.content .image1 {
+  display: flex;
+  padding-right: 100px;
+  height: 422px;
+  min-width: 400px;
+  background-image: url(../images/special-offer-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.content .form {
+  margin: 0 40px;
+}
+.content .submit {
+  display: flex;
+  margin: 80px 30px;
+  height: 60px;
+  width: 160px;
+  color: #fff;
+  font-family: Gill;
+  background-color: #5d9bce;
+  justify-content: center;
+  align-items: center;
+}
+.content h1 {
+  font-family: Nova;
+  font-size: 30px;
+  margin: auto 30px;
+}
+.content p {
+  width: 290;
+  font-family: Gill;
+  font-size: 16px;
+  margin: auto 30px;
+}
+
+.info {
+  margin: 40px auto 100px 240px;
+}
+.info p {
+  width: 290;
+  font-family: Gill;
+  font-size: 16px;
+  margin: auto 30px;
+}
+
+.line1 {
+  background-color: #000;
+  width: 980px;
+  height: 2px;
+  margin: 10px auto;
+}
+
+.line2 {
+  margin: 80px auto 10px 270px;
+  background-color: #000;
+  width: 200px;
+  height: 2px;
+}
+
+.line3 {
+  margin: auto 30px;
+  background-color: #000;
+  width: 200px;
+  height: 2px;
+}
+
+.moreisrael nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.moreisrael nav .logo {
+  width: 92px;
+  height: 42px;
+  margin: auto 20px;
+  background-image: url(../images/logo/logo-black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.moreisrael nav .links {
+  width: 524px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.moreisrael nav .links div.pipe {
+  height: 60%;
+  width: 2px;
+  background-color: #5d9bce;
+}
+.moreisrael nav .links div a {
+  font-family: Gill;
+  font-size: 15px;
+  margin: auto;
+  text-decoration: none;
+  color: #000;
+}
+
+.moreusa nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.moreusa nav .logo {
+  width: 92px;
+  height: 42px;
+  margin: auto 20px;
+  background-image: url(../images/logo/logo-black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.moreusa nav .links {
+  width: 524px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.moreusa nav .links div.pipe {
+  height: 60%;
+  width: 2px;
+  background-color: #5d9bce;
+}
+.moreusa nav .links div a {
+  font-family: Gill;
+  font-size: 15px;
+  margin: auto;
+  text-decoration: none;
+  color: #000;
+}
+
+.moreaustrailia nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.moreaustrailia nav .logo {
+  width: 92px;
+  height: 42px;
+  margin: auto 20px;
+  background-image: url(../images/logo/logo-black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.moreaustrailia nav .links {
+  width: 524px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.moreaustrailia nav .links div.pipe {
+  height: 60%;
+  width: 2px;
+  background-color: #5d9bce;
+}
+.moreaustrailia nav .links div a {
+  font-family: Gill;
+  font-size: 15px;
+  margin: auto;
+  text-decoration: none;
+  color: #000;
+}
+
+.morenewzealand nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.morenewzealand nav .logo {
+  width: 92px;
+  height: 42px;
+  margin: auto 20px;
+  background-image: url(../images/logo/logo-black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.morenewzealand nav .links {
+  width: 524px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.morenewzealand nav .links div.pipe {
+  height: 60%;
+  width: 2px;
+  background-color: #5d9bce;
+}
+.morenewzealand nav .links div a {
+  font-family: Gill;
+  font-size: 15px;
+  margin: auto;
+  text-decoration: none;
+  color: #000;
+}
+
+.morefrance nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.morefrance nav .logo {
+  width: 92px;
+  height: 42px;
+  margin: auto 20px;
+  background-image: url(../images/logo/logo-black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.morefrance nav .links {
+  width: 524px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.morefrance nav .links div.pipe {
+  height: 60%;
+  width: 2px;
+  background-color: #5d9bce;
+}
+.morefrance nav .links div a {
+  font-family: Gill;
+  font-size: 15px;
+  margin: auto;
+  text-decoration: none;
+  color: #000;
+}
+
+.moreegypt nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.moreegypt nav .logo {
+  width: 92px;
+  height: 42px;
+  margin: auto 20px;
+  background-image: url(../images/logo/logo-black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.moreegypt nav .links {
+  width: 524px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.moreegypt nav .links div.pipe {
+  height: 60%;
+  width: 2px;
+  background-color: #5d9bce;
+}
+.moreegypt nav .links div a {
+  font-family: Gill;
+  font-size: 15px;
+  margin: auto;
+  text-decoration: none;
+  color: #000;
+}
+
+.morejapan nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.morejapan nav .logo {
+  width: 92px;
+  height: 42px;
+  margin: auto 20px;
+  background-image: url(../images/logo/logo-black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.morejapan nav .links {
+  width: 524px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.morejapan nav .links div.pipe {
+  height: 60%;
+  width: 2px;
+  background-color: #5d9bce;
+}
+.morejapan nav .links div a {
+  font-family: Gill;
+  font-size: 15px;
+  margin: auto;
+  text-decoration: none;
+  color: #000;
+}
+
+.morecanada nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.morecanada nav .logo {
+  width: 92px;
+  height: 42px;
+  margin: auto 20px;
+  background-image: url(../images/logo/logo-black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.morecanada nav .links {
+  width: 524px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.morecanada nav .links div.pipe {
+  height: 60%;
+  width: 2px;
+  background-color: #5d9bce;
+}
+.morecanada nav .links div a {
+  font-family: Gill;
+  font-size: 15px;
+  margin: auto;
+  text-decoration: none;
+  color: #000;
+}
+
+.moreuae nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.moreuae nav .logo {
+  width: 92px;
+  height: 42px;
+  margin: auto 20px;
+  background-image: url(../images/logo/logo-black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.moreuae nav .links {
+  width: 524px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.moreuae nav .links div.pipe {
+  height: 60%;
+  width: 2px;
+  background-color: #5d9bce;
+}
+.moreuae nav .links div a {
+  font-family: Gill;
+  font-size: 15px;
+  margin: auto;
+  text-decoration: none;
+  color: #000;
+}
+
+.pages .header {
+  width: 980px;
+  height: 412px;
+  margin: 10px auto;
+  background-color: crimson;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+.pages .header h1 {
+  margin: 10px;
+  font-family: Nova;
+  font-size: 80px;
+}
+.pages .header h2 {
+  margin: 260px 10px 10px 600px;
+  font-family: Nova;
+  font-size: 30px;
+}
+.pages .israel {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+}
+.pages .usa {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+}
+.pages .austrailia {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+}
+.pages .newzealand {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+}
+.pages .france {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+}
+.pages .egypt {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+}
+.pages .japan {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+}
+.pages .canada {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+}
+.pages .uae {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+}
+.pages .secondheader {
+  width: 980px;
+  height: 412px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pages .secondheader .image1 {
+  height: 348px;
+  width: 300px;
+  background-color: aqua;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.pages .secondheader .israel1 {
+  background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+}
+.pages .secondheader .usa1 {
+  background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+}
+.pages .secondheader .austrailia1 {
+  background-image: url(../images/tour/tour-aus/aus-tour-01.jpg);
+}
+.pages .secondheader .newzealand1 {
+  background-image: url(../images/tour/tour-nz/nz-tour-01.jpg);
+}
+.pages .secondheader .france1 {
+  background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+}
+.pages .secondheader .egypt1 {
+  background-image: url(../images/tour/tour-egypt/egypt-tour-01.jpg);
+}
+.pages .secondheader .japan1 {
+  background-image: url(../images/tour/tour-japan/japan-tour-01.jpg);
+}
+.pages .secondheader .canada1 {
+  background-image: url(../images/tour/tour-canada/canada-tour-01.jpg);
+}
+.pages .secondheader .uae1 {
+  background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+}
+.pages .secondheader .image2 {
+  height: 348px;
+  width: 300px;
+  background-color: skyblue;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.pages .secondheader .israel2 {
+  background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+}
+.pages .secondheader .usa2 {
+  background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+}
+.pages .secondheader .austrailia2 {
+  background-image: url(../images/tour/tour-aus/aus-tour-02.jpg);
+}
+.pages .secondheader .newzealand2 {
+  background-image: url(../images/tour/tour-nz/nz-tour-02.jpg);
+}
+.pages .secondheader .france2 {
+  background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+}
+.pages .secondheader .egypt2 {
+  background-image: url(../images/tour/tour-egypt/egypt-tour-02.jpg);
+}
+.pages .secondheader .japan2 {
+  background-image: url(../images/tour/tour-japan/japan-tour-02.jpg);
+}
+.pages .secondheader .canada2 {
+  background-image: url(../images/tour/tour-canada/canada-tour-02.jpg);
+}
+.pages .secondheader .uae2 {
+  background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+}
+.pages .secondheader .image3 {
+  height: 348px;
+  width: 300px;
+  background-color: beige;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.pages .secondheader .israel3 {
+  background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+}
+.pages .secondheader .usa3 {
+  background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+}
+.pages .secondheader .austrailia3 {
+  background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
+}
+.pages .secondheader .newzealand3 {
+  background-image: url(../images/tour/tour-nz/nz-tour-03.jpg);
+}
+.pages .secondheader .france3 {
+  background-image: url(../images/tour/tour-france/france-tour-03.jpg);
+}
+.pages .secondheader .egypt3 {
+  background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg);
+}
+.pages .secondheader .japan3 {
+  background-image: url(../images/tour/tour-japan/japan-tour-03.jpg);
+}
+.pages .secondheader .canada3 {
+  background-image: url(../images/tour/tour-canada/canada-tour-03.jpg);
+}
+.pages .secondheader .uae3 {
+  background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
+}
+.pages .info {
+  max-width: 960px;
+  height: 200px;
+  margin: 10px auto;
+}
+.pages .info h1 {
+  font-family: Nova;
+  font-size: 60px;
+}
+.pages .info p {
+  font-family: Gill;
+  font-size: 16px;
+}
+.pages .booknow {
+  font-family: Gill;
+  background-color: #5d9bce;
+  color: #fff;
+  width: 140px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border-radius: 20px;
+}

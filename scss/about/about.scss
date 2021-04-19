@@ -1,0 +1,78 @@
+.about {
+    max-width: 980px;
+    //min-height: 100px; //MANAGE HEIGHT OF ABOUT PAGE
+    margin: 0 auto 60px auto;
+    //background-color: cyan;
+
+    font-family: Gill;
+
+    .about-top-section {
+        h1 {
+            font-family: Nova;
+            font-size: 60px;
+        }
+    }
+
+    .about-bottom-section {
+        h3 {
+            font-family: Nova;
+            font-size: 40px;
+        }
+
+        .client {
+            max-width: 676px;
+            min-height: 150px;
+            display: flex;
+
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            .client-image {
+                width: 260px;
+                height: 150px;
+                //background-color: bisque;
+
+                img {
+                    width: 100%;
+                }
+
+            }
+
+            .client-quote {
+                font-size: 16px;
+                position: relative;
+                //background-color: blue;
+                min-height: 50px;
+                width: 100%;
+                padding: 25px;
+
+                p {
+                    &:last-child {
+                        margin-bottom: 25px;
+                    }
+                }
+
+
+                .client-name1 {
+                    color: $site-blue;
+                    font-family: Nova;
+                    font-size: 20px;
+                    //background-color: chartreuse;
+                    position: absolute;
+                    right: 0;
+                    bottom: 120px;
+                }
+                .client-name2 {
+                    color: $site-blue;
+                    font-family: Nova;
+                    font-size: 20px;
+                    //background-color: chartreuse;
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                }
+            }
+        }
+    }
+}

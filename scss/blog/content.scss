@@ -1,0 +1,50 @@
+.content {
+    height: 300px;
+    width: 980px;
+    display: flex;
+    margin: 100px auto;
+
+    //background-color: aqua;
+
+    .date {
+        margin: 0 auto;
+        height: 60px;
+        width: 60px;
+        background-color: $site-blue;
+        color: $white;
+        font-family: Gill;
+        font-size: 24px;
+        display: flex;
+        //justify-content: center;
+        //align-items: center;
+    }
+
+    .content-info {
+        .text {
+            max-width: 300px;
+        }
+
+        h1 {
+            font-family: Gill;
+            font-size: 15px;
+            margin: auto 30px;
+        }
+
+        p {
+            width: 380px;
+            font-family: Gill;
+            font-size: 13px;
+            margin: auto 30px;
+        }
+
+        .image1 {
+            height: 260px;
+            width: 900px;
+
+            background-image: url(../images/blog.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}

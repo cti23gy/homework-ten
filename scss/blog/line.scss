@@ -1,0 +1,21 @@
+.line1 {
+    background-color: $black;
+    width: 980px;
+    height: 2px;
+    margin: 10px auto;
+}
+
+.line2 {
+    margin: 80px auto 10px 270px;
+    //margin: 10px auto 10px calc(50% - 480px); //can go over the box
+    background-color: $black;
+    width: 200px;
+    height: 2px;
+}
+
+.line3 {
+    margin: auto 30px;
+    background-color: $black;
+    width: 200px;
+    height: 2px;
+}

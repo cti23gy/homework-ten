@@ -1,0 +1,201 @@
+.pages {   
+    
+
+    .header {
+        width: 980px;
+        height: 412px;
+        margin: 10px auto;
+        //display: flex;
+        background-color: crimson;
+        justify-content: space-between;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: $white;
+
+        h1 {
+            margin: 10px;
+            font-family: Nova;
+            font-size: 80px;
+        }
+        h2 {
+            margin: 260px 10px 10px 600px;
+            font-family: Nova;
+            font-size: 30px;
+        }
+
+    }
+    .israel {
+        background-image: $overlay, url(../images/tour/tour-01.jpg);
+    }
+    .usa {
+        background-image: $overlay, url(../images/tour/tour-02.jpg);
+    }
+    .austrailia {
+        background-image: $overlay, url(../images/tour/tour-03.jpg);
+    }
+    .newzealand {
+        background-image: $overlay, url(../images/tour/tour-04.jpg);
+    }
+    .france {
+        background-image: $overlay, url(../images/tour/tour-05.jpg);
+    }
+    .egypt {
+        background-image: $overlay, url(../images/tour/tour-06.jpg);
+    }
+    .japan {
+        background-image: $overlay, url(../images/tour/tour-07.jpg);
+    }
+    .canada {
+        background-image: $overlay, url(../images/tour/tour-08.jpg);
+    }
+    .uae {
+        background-image: $overlay, url(../images/tour/tour-09.jpg);
+    }
+    ///////////////////////////////////////////////////////////////////////////////
+    .secondheader {
+        width: 980px;
+        height: 412px;
+        margin: 10px auto;
+        display: flex;
+        //background-color: crimson;
+        justify-content: space-between;
+
+        
+        .image1 {
+            height: 348px;
+            width: 300px;
+            background-color: aqua;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .israel1 {
+            background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+        }
+        .usa1 {
+            background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+        }
+        .austrailia1 {
+            background-image: url(../images/tour/tour-aus/aus-tour-01.jpg);
+        }
+        .newzealand1 {
+            background-image: url(../images/tour/tour-nz/nz-tour-01.jpg);
+        }
+        .france1 {
+            background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+        }
+        .egypt1 {
+            background-image: url(../images/tour/tour-egypt/egypt-tour-01.jpg);
+        }
+        .japan1 {
+            background-image: url(../images/tour/tour-japan/japan-tour-01.jpg);
+        }
+        .canada1 {
+            background-image: url(../images/tour/tour-canada/canada-tour-01.jpg);
+        }
+        .uae1 {
+            background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+        }
+
+        ////////////////////////////////////////////////////////////////////////////////////
+        .image2 {
+            height: 348px;
+            width: 300px;
+            background-color: skyblue;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .israel2 {
+            background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+        }
+        .usa2 {
+            background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+        }
+        .austrailia2 {
+            background-image: url(../images/tour/tour-aus/aus-tour-02.jpg);
+        }
+        .newzealand2 {
+            background-image: url(../images/tour/tour-nz/nz-tour-02.jpg);
+        }
+        .france2 {
+            background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+        }
+        .egypt2 {
+            background-image: url(../images/tour/tour-egypt/egypt-tour-02.jpg);
+        }
+        .japan2 {
+            background-image: url(../images/tour/tour-japan/japan-tour-02.jpg);
+        }
+        .canada2 {
+            background-image: url(../images/tour/tour-canada/canada-tour-02.jpg);
+        }
+        .uae2 {
+            background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+        }
+
+
+        ////////////////////////////////////////////////////////////////////////////////////
+        .image3 {
+            height: 348px;
+            width: 300px;
+            background-color: beige;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .israel3 {
+            background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+        }
+        .usa3 {
+            background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+        }
+        .austrailia3 {
+            background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
+        }
+        .newzealand3 {
+            background-image: url(../images/tour/tour-nz/nz-tour-03.jpg);
+        }
+        .france3 {
+            background-image: url(../images/tour/tour-france/france-tour-03.jpg);
+        }
+        .egypt3 {
+            background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg);
+        }
+        .japan3 {
+            background-image: url(../images/tour/tour-japan/japan-tour-03.jpg);
+        }
+        .canada3 {
+            background-image: url(../images/tour/tour-canada/canada-tour-03.jpg);
+        }
+        .uae3 {
+            background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
+        }
+    }
+
+    .info {
+        max-width: 960px;
+        height: 200px;
+        margin: 10px auto;
+
+        h1 {
+            font-family: Nova;
+            font-size: 60px;;
+        }
+        p {
+            font-family: Gill;
+            font-size: 16px;
+        }
+    }
+
+    .booknow {
+        font-family: Gill;
+        background-color: $site-blue;
+        color: $white;
+        width: 140px;
+        margin: 20px auto;
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+}

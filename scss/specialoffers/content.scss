@@ -1,0 +1,58 @@
+.content {
+    height: 300px;
+    width: 980px;
+    display: flex;
+    margin: 100px auto;
+
+    //background-color: aqua;
+
+    .text {
+        max-width: 300px;
+
+        .more {
+            display: flex;
+            margin: 80px 30px;
+            width: 140px;
+
+            color: $white;
+            font-family: Gill;
+            background-color: $site-blue;
+            padding: 10px 20px;
+            justify-content: center;
+            border-radius: 20px;
+        }
+    }
+
+    h1 {
+        font-family: Nova;
+        font-size: 30px;
+        margin: auto 30px;
+    }
+
+    p {
+        width: 290;
+        font-family: Gill;
+        font-size: 16px;
+        margin: auto 30px;
+    }
+
+    .image1 {
+        height: 100%;
+        min-width: 200px;
+
+        background-image: url(../images/special-offer-01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .image2 {
+        height: 100%;
+        min-width: 200px;
+
+        background-image: url(../images/special-offer-02.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
